@@ -1,0 +1,138 @@
+body{
+    margin: auto;
+    background-color: lightcyan;
+}
+
+.dice-row{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+aside{
+    height: 14px;
+    width: 14px;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    margin: 5px;
+}
+
+.dice{
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    display: grid;
+    max-width: 200px;
+    max-height: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dots-1 aside{
+    grid-column: 3 / 3; 
+    grid-row: 3 / 3; 
+}
+
+.dots-2 .dot1{
+    grid-column: 2 / 2; 
+    grid-row: 2/ 2; 
+}
+
+.dots-2 .dot2{
+    grid-column: 4 / 4; 
+    grid-row: 4 / 4; 
+}
+
+.dots-3 .dot1{
+    grid-column: 2 / 2; 
+    grid-row: 2 / 2; 
+}
+
+.dots-3 .dot2{
+    grid-column: 3 / 3; 
+    grid-row: 3 / 3; 
+}
+
+.dots-3 .dot3{
+    grid-column: 4 / 4; 
+    grid-row: 4 / 4; 
+}
+
+.dots-4 .dot1{
+    grid-column: 2 / 2; 
+    grid-row: 2 / 2; 
+}
+
+.dots-4 .dot2{
+    grid-column: 4 / 4; 
+    grid-row: 2 / 2; 
+}
+
+.dots-4 .dot3{
+    grid-column: 2 / 2; 
+    grid-row: 4 / 4; 
+}
+
+.dots-4 .dot4{
+    grid-column: 4 / 4; 
+    grid-row: 4 / 4; 
+}
+
+.dots-5 .dot1{
+    grid-column: 2 / 2; 
+    grid-row: 2 / 2; 
+}
+
+.dots-5 .dot2{
+    grid-column: 4 / 4; 
+    grid-row: 2 / 2; 
+}
+
+.dots-5 .dot3{
+    grid-column: 2 / 2; 
+    grid-row: 4 / 4; 
+}
+
+.dots-5 .dot4{
+    grid-column: 4 / 4; 
+    grid-row: 4 / 4; 
+}
+
+.dots-5 .dot5{
+    grid-column: 3 / 3; 
+    grid-row: 3 / 3; 
+}
+
+.dots-6 .dot1{
+    grid-column: 2 / 2; 
+    grid-row: 2 / 2; 
+}
+
+.dots-6 .dot2{
+    grid-column: 4 / 4; 
+    grid-row: 2 / 2; 
+}
+
+.dots-6 .dot3{
+    grid-column: 2 / 2; 
+    grid-row: 3 / 3; 
+}
+
+.dots-6 .dot4{
+    grid-column: 4 / 4; 
+    grid-row: 3 / 3; 
+}
+
+.dots-6 .dot5{
+    grid-column: 2 / 2; 
+    grid-row: 4 / 4; 
+}
+
+.dots-6 .dot6{
+    grid-column: 4 / 6; 
+    grid-row: 4 / 4; 
+}
